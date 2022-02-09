@@ -13,7 +13,7 @@
 #define MICROPY_BOARD_EARLY_INIT    NUCLEO_H743ZI_board_early_init
 void NUCLEO_H743ZI_board_early_init(void);
 
-// The board has an 8MHz HSE, the following gives 400MHz CPU speed
+// The board has an 8MHz HSE, the following gives 200MHz CPU speed
 #define MICROPY_HW_CLK_PLLM (4)
 #define MICROPY_HW_CLK_PLLN (400)
 #define MICROPY_HW_CLK_PLLP (4)
