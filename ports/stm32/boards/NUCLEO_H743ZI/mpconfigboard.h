@@ -27,8 +27,8 @@ void NUCLEO_H743ZI_board_early_init(void);
 #define MICROPY_HW_CLK_PLL3Q (5)
 #define MICROPY_HW_CLK_PLL3R (2)
 
-// 4 wait states
-#define MICROPY_HW_FLASH_LATENCY    FLASH_LATENCY_4
+// 1 wait states
+#define MICROPY_HW_FLASH_LATENCY    FLASH_LATENCY_1
 
 // UART config
 #define MICROPY_HW_UART2_TX         (pin_D5)
